@@ -1,0 +1,34 @@
+p {
+    color:#53FB0A;
+    Font-family: ubuntu;
+    Font-size: 20px;
+}
+
+Div p {
+    color: blue;
+    font-size: 10px;
+}
+.class_test {
+    color: blue;
+    font-size: 40px;
+}
+
+#id_test {
+    color: yellow;
+    font-size: 30px;
+}
+
+.hover_test:hover {
+font-size: 50px;
+text-decoration: none;
+}
+
+.hover_test:hover {
+font-size: 50px;
+text-decoration: none;
+}
+
+a:visited {
+color: pink;
+}
+

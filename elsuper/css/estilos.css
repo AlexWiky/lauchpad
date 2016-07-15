@@ -1,0 +1,271 @@
+@charset "utf-8";
+.fondo-azul {
+	background-color: #202C54;
+	color: #FFFFFF;
+}
+.fondo-azul-hojitas {
+	background-image: url(../images/hojitas.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: #202C54;
+}
+
+.slogan {
+	font-weight: 400;
+	font-size: 24px;
+	letter-spacing: 0.02em;
+	margin-bottom: 20px;
+	margin-top: -20px;
+	color: #FFFFFF;
+}
+.bienvenidos {
+	font-size: 50px;
+	font-weight: 400;
+	/* [disabled]min-height: 160px; */
+	margin-top: 40px;
+	letter-spacing: 0.15em;
+	color: #FFFFFF;
+	text-align: center;
+}
+.cuerpo-texto {
+	font-size: 18px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+h3   {
+	margin-bottom: 18px;
+}
+
+.cuerpo-texto-centra {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+}
+.cuerpo-texto-blanco {
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: normal;
+	text-align: center;
+}
+.cuerpo-texto-blanco-ch {
+	font-size: 15px;
+	padding-top: 30px;
+	padding-bottom: 24px;
+	font-weight: normal;
+	text-align: left;
+}
+.logo-blanco-footer {
+	float: right;
+}
+
+
+
+
+body {
+	font-family: "Ubuntu", Arial, sans-serif;
+	/* [disabled]color: #FFFFFF; */
+}
+.fondo-gris-claro {
+	background-color: #D8D8D8;
+	font-size: 21px;
+	text-align: center;
+	font-weight: normal;
+	color: #202C54;
+}
+.fondo-verde-claro {
+	background-color: #EDECDA;
+	font-size: 21px;
+	text-align: center;
+	font-weight: normal;
+	color: #202C54;
+}
+.centrar {
+	text-align: center;
+	margin: 20px auto auto;
+}
+.centrar-sin-m {
+	text-align: center;
+	/* [disabled]margin-top: 20px; */
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+}
+.margen-sup {
+	margin-top: 10px;
+}
+
+
+.italica {
+	font-style: italic;
+	font-weight: 500;
+}
+h2 {
+	color: #202C54;
+	font-size: 24px;
+}
+.imagen-altura {
+	height: 120px;
+}
+.statement {
+	/* [disabled]width: 350px; */
+	height: 46px;
+	background-color: #E30513;
+	color: #FFFFFF;
+	z-index: 10;
+	float: left;
+	top: auto;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	border-radius: 20px;
+	padding-top: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 28px;
+}
+.campo-entrada {
+	width: 60%;
+	height: 34px;
+	color: #000000;
+	font-size: 18px;
+}
+.boton-ir {
+	width: 18%;
+	background-color: #FFA702;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.naranja {
+	color: #FFA702;
+}
+a.naranja:link {
+	color: #FFA702;
+}
+.colaborador {
+	height: 150px;
+	z-index: 11;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	margin-top: -26px;
+}
+.destaca-mayuscula {
+	text-transform: uppercase;
+	color: #FFA702;
+}
+.miin-altura {
+	min-height: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px) and (max-width:1199px){
+.slogan {
+	font-size: 25px;
+	margin-top: 0px;
+}
+.fondo-azul-hojitas {
+	background-image: url(../images/hojitas.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: -10px 18px;
+}
+
+
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+.slogan {
+	font-size: 23px;
+	text-align: center;
+	margin-top: -10px;
+}
+.bienvenidos {
+	font-size: 40px;
+	margin-top: 16px;
+}
+.fondo-azul-hojitas {
+	background-image: url(../images/hojitas-sin.png);
+	background-repeat: no-repeat;
+	background-size: 80% 100%;
+	background-position: -8px 16px;
+}
+
+
+
+}
+
+@media (max-width:767px){
+.slogan {
+	font-size: 32px;
+	margin-top: -10px;
+	text-align: center;
+}
+.bienvenidos {
+	margin-top: 10px;
+	text-align: center;
+}
+.fondo-azul-hojitas {
+	background-image: url(../images/hojitas-sin.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.cuerpo-texto-blanco-ch {
+	font-size: 15px;
+	padding-top: 30px;
+	padding-bottom: 24px;
+	font-weight: normal;
+	text-align: center;
+}
+.logo-blanco-footer {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+}
+
+@media (max-width: 375px){
+.slogan {
+	font-size: 20px;
+}
+.bienvenidos {
+	font-size: 28px;
+	margin-top: 10px;
+}
+.statement {
+	height: 36px;
+	padding-top: 6px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 16px;
+}
+.fondo-gris-claro {
+	font-size: 18px;
+	text-align: center;
+	font-weight: normal;
+}
+
+
+
+
+}
